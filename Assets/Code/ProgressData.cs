@@ -7,12 +7,12 @@ using System.Collections.Generic;
 
 namespace ProgreaaAndDataNamespace
 {
-    public class ProgressAndSettings : MonoBehaviour
+    public class ProgressData : MonoBehaviour
     {
-        public static ProgressAndSettings Instance { get; private set; }
+        public static ProgressData Instance { get; private set; }
 
         public static int LevelCount { get; set; }
-        public static int GoldCoinCounter { get; set; }
+        public static int GoldCoinCounter { get; set; } = 100;
         public static int Quick { get; set; }
         public static int Hatchet { get; set; }
         public static int Bomb { get; set; }

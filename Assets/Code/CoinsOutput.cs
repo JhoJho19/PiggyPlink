@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
-public class CoinsText : MonoBehaviour
+public class CoinsOutput : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI coinsText;
 
@@ -15,8 +15,8 @@ public class CoinsText : MonoBehaviour
 
     public void UpdateCoinCounter()
     {
-        coinsText.text = ProgressAndSettings.GoldCoinCounter.ToString();
-        if (ProgressAndSettings.GoldCoinCounter <= 0)
+        coinsText.text = ProgressData.GoldCoinCounter.ToString();
+        if (ProgressData.GoldCoinCounter <= 0)
         {
             coinsText.text = "0";
         }
