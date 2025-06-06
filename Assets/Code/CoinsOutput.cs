@@ -18,7 +18,8 @@ public class CoinsOutput : MonoBehaviour
         coinsText.text = ProgressData.GoldCoinCounter.ToString();
         if (ProgressData.GoldCoinCounter <= 0)
         {
-            coinsText.text = "0";
+            ProgressData.GoldCoinCounter = 10;
+            coinsText.text = ProgressData.GoldCoinCounter.ToString();
         }
     }
 }

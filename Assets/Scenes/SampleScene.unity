@@ -838,7 +838,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.0000009536743}
   serializedVersion: 2
-  m_Radius: 0.50000006
+  m_Radius: 0.4
 --- !u!212 &192902830
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1596,7 +1596,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.0000009536743}
   serializedVersion: 2
-  m_Radius: 0.50000006
+  m_Radius: 0.53
 --- !u!212 &373432971
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1716,7 +1716,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.0000009536743}
   serializedVersion: 2
-  m_Radius: 0.50000006
+  m_Radius: 0.52
 --- !u!212 &399201415
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1836,7 +1836,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.0000009536743}
   serializedVersion: 2
-  m_Radius: 0.50000006
+  m_Radius: 0.56
 --- !u!212 &468280846
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1956,7 +1956,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.0000009536743}
   serializedVersion: 2
-  m_Radius: 0.50000006
+  m_Radius: 0.44
 --- !u!212 &481841567
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2823,7 +2823,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.0000009536743}
   serializedVersion: 2
-  m_Radius: 0.50000006
+  m_Radius: 0.75
 --- !u!212 &814922338
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3063,7 +3063,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.0000009536743}
   serializedVersion: 2
-  m_Radius: 0.50000006
+  m_Radius: 0.47
 --- !u!212 &834233090
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3498,7 +3498,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.0000009536743}
   serializedVersion: 2
-  m_Radius: 0.50000006
+  m_Radius: 0.8
 --- !u!212 &1029166983
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3738,7 +3738,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.0000009536743}
   serializedVersion: 2
-  m_Radius: 0.50000006
+  m_Radius: 0.55
 --- !u!212 &1071254265
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4362,7 +4362,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.0000009536743}
   serializedVersion: 2
-  m_Radius: 0.50000006
+  m_Radius: 0.6
 --- !u!212 &1246140459
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5035,7 +5035,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.0000009536743}
   serializedVersion: 2
-  m_Radius: 0.50000006
+  m_Radius: 0.55
 --- !u!212 &1456174885
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5805,7 +5805,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.0000009536743}
   serializedVersion: 2
-  m_Radius: 0.50000006
+  m_Radius: 0.55
 --- !u!212 &1630573568
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6417,7 +6417,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.0000009536743}
   serializedVersion: 2
-  m_Radius: 0.50000006
+  m_Radius: 0.54
 --- !u!212 &1727579336
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7307,7 +7307,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.0000009536743}
   serializedVersion: 2
-  m_Radius: 0.50000006
+  m_Radius: 0.7
 --- !u!212 &2080765730
 SpriteRenderer:
   m_ObjectHideFlags: 0

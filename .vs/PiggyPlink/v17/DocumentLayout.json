@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\UnityGames\\PiggyPlink\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C6C09B3F-AD4D-7A77-0FB8-CDD956A59E3C}|Assembly-CSharp.csproj|C:\\UnityGames\\PiggyPlink\\assets\\code\\coinsoutput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6C09B3F-AD4D-7A77-0FB8-CDD956A59E3C}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\coinsoutput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C6C09B3F-AD4D-7A77-0FB8-CDD956A59E3C}|Assembly-CSharp.csproj|c:\\unitygames\\piggyplink\\assets\\code\\catcherbeh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6C09B3F-AD4D-7A77-0FB8-CDD956A59E3C}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\catcherbeh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C6C09B3F-AD4D-7A77-0FB8-CDD956A59E3C}|Assembly-CSharp.csproj|C:\\UnityGames\\PiggyPlink\\assets\\code\\progressdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6C09B3F-AD4D-7A77-0FB8-CDD956A59E3C}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\progressdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6C09B3F-AD4D-7A77-0FB8-CDD956A59E3C}|Assembly-CSharp.csproj|C:\\UnityGames\\PiggyPlink\\assets\\code\\coinsoutput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6C09B3F-AD4D-7A77-0FB8-CDD956A59E3C}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\coinsoutput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C6C09B3F-AD4D-7A77-0FB8-CDD956A59E3C}|Assembly-CSharp.csproj|C:\\UnityGames\\PiggyPlink\\assets\\code\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,7 +38,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CatcherBeh.cs",
               "DocumentMoniker": "C:\\UnityGames\\PiggyPlink\\Assets\\Code\\CatcherBeh.cs",
               "RelativeDocumentMoniker": "Assets\\Code\\CatcherBeh.cs",
@@ -51,7 +51,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "BallController.cs",
               "DocumentMoniker": "C:\\UnityGames\\PiggyPlink\\Assets\\Code\\BallController.cs",
               "RelativeDocumentMoniker": "Assets\\Code\\BallController.cs",
@@ -63,7 +63,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ProgressData.cs",
               "DocumentMoniker": "C:\\UnityGames\\PiggyPlink\\Assets\\Code\\ProgressData.cs",
               "RelativeDocumentMoniker": "Assets\\Code\\ProgressData.cs",
@@ -75,15 +75,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "CoinsOutput.cs",
               "DocumentMoniker": "C:\\UnityGames\\PiggyPlink\\Assets\\Code\\CoinsOutput.cs",
               "RelativeDocumentMoniker": "Assets\\Code\\CoinsOutput.cs",
               "ToolTip": "C:\\UnityGames\\PiggyPlink\\Assets\\Code\\CoinsOutput.cs",
               "RelativeToolTip": "Assets\\Code\\CoinsOutput.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAowBEAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAowBgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T12:59:21.211Z"
+              "WhenOpened": "2025-06-05T12:59:21.211Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
