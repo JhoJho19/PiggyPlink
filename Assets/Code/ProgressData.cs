@@ -1,11 +1,8 @@
 using UnityEngine;
-using UnityEngine.Events;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
-using UnityEngine.SceneManagement;
-using System.Collections.Generic;
 
-namespace ProgreaaAndDataNamespace
+namespace ProgressAndDataNamespace
 {
     public class ProgressData : MonoBehaviour
     {
@@ -13,14 +10,20 @@ namespace ProgreaaAndDataNamespace
 
         public static int LevelCount { get; set; }
         public static int GoldCoinCounter { get; set; } = 100;
-        public static int Quick { get; set; }
-        public static int Hatchet { get; set; }
-        public static int Bomb { get; set; }
-        public static bool isVibroOn { get; set; }
-        public static float volume { get; set; }
-        public static bool isQuickOpen { get; set; }
-        public static bool isHatchetOpen { get; set; }
-        public static bool isBombOpen { get; set; }
+        public static int DoubleCoins { get; set; }
+        public static int DoubleBalls { get; set; }
+        public static int FasterBonus { get; set; }
+        public static bool isYellowBakkOpen { get; set; } = true;
+        public static bool isGreenBallOpen { get; set; }
+        public static bool isOrangeBallOpen { get; set; }
+        public static bool isBlueBallOpen { get; set; }
+        public static bool isPinkBallOpen { get; set; }
+        public static bool isVioletBallOpen { get; set; }
+        public static bool isOrange2BallOpen { get; set; }
+        public static bool isRedBallOpen { get; set; }
+
+        public static int currentSkinIndex { get; set; }
+
 
         private string saveWay;
 
@@ -34,64 +37,78 @@ namespace ProgreaaAndDataNamespace
             else
             {
                 Destroy(gameObject);
+                return;
             }
-            saveWay = Application.persistentDataPath + "/gameProgress.dat";
+
+            saveWay = Path.Combine(Application.persistentDataPath, "gameProgress.dat");
         }
 
         public void SaveProgress()
         {
-            BinaryFormatter formatter = new BinaryFormatter();
-            FileStream fileStream = File.Create(saveWay);
+            var formatter = new BinaryFormatter();
+            using (var stream = File.Create(saveWay))
+            {
+                var data = new GameProgressData
+                {
+                    LevelCount = LevelCount++,
+                    GoldCoinCounter = GoldCoinCounter,
+                    DoubleCoins = DoubleCoins,
+                    DoubleBalls = DoubleBalls,
+                    FasterBonus = FasterBonus,
+                    isYellowBakkOpen = isYellowBakkOpen,
+                    isGreenBallOpen = isGreenBallOpen,
+                    isOrangeBallOpen = isOrangeBallOpen,
+                    isBlueBallOpen = isBlueBallOpen,
+                    isPinkBallOpen = isPinkBallOpen,
+                    isVioletBallOpen = isVioletBallOpen,
+                    isOrange2BallOpen = isOrange2BallOpen,
+                    isRedBallOpen = isRedBallOpen
+                };
 
-            GameProgressData data = new GameProgressData();
-            data.LevelCount = LevelCount++;
-            data.GoldCoinCounter = GoldCoinCounter;
-            data.Quik = Quick;
-            data.Hatchet = Hatchet;
-            data.Bomb = Bomb;
-            data.isQuikOpen = isQuickOpen;
-            data.isHatchetOpen = isHatchetOpen;
-            data.isBombOpen = isBombOpen;
-            data.isVibroOn = isVibroOn;
-            data.volume = volume;
-
-            formatter.Serialize(fileStream, data);
-            fileStream.Close();
+                formatter.Serialize(stream, data);
+            }
         }
 
         public void LoadProgress()
         {
             if (File.Exists(saveWay))
             {
-                BinaryFormatter formatter = new BinaryFormatter();
-                FileStream fileStream = File.Open(saveWay, FileMode.Open);
+                var formatter = new BinaryFormatter();
+                using (var stream = File.OpenRead(saveWay))
+                {
+                    var data = (GameProgressData)formatter.Deserialize(stream);
 
-                GameProgressData data = (GameProgressData)formatter.Deserialize(fileStream);
-                fileStream.Close();
-
-                LevelCount = data.LevelCount;
-                GoldCoinCounter = data.GoldCoinCounter;
-                Quick = data.Hatchet;
-                Hatchet = data.Hatchet;
-                Bomb = data.Bomb;
-                isBombOpen = data.isBombOpen;
-                isHatchetOpen = data.isHatchetOpen;
-                isQuickOpen = data.isQuikOpen;
-                volume = data.volume;
-                isVibroOn = data.isVibroOn;
+                    LevelCount = data.LevelCount;
+                    GoldCoinCounter = data.GoldCoinCounter;
+                    DoubleCoins = data.DoubleCoins;
+                    DoubleBalls = data.DoubleBalls;
+                    FasterBonus = data.FasterBonus;
+                    isYellowBakkOpen = data.isYellowBakkOpen;
+                    isGreenBallOpen = data.isGreenBallOpen;
+                    isOrangeBallOpen = data.isOrangeBallOpen;
+                    isBlueBallOpen = data.isBlueBallOpen;
+                    isPinkBallOpen = data.isPinkBallOpen;
+                    isVioletBallOpen = data.isVioletBallOpen;
+                    isOrange2BallOpen = data.isOrange2BallOpen;
+                    isRedBallOpen = data.isRedBallOpen;
+                }
             }
             else
             {
+                // начальные значения по умолчанию
                 LevelCount = 1;
                 GoldCoinCounter = 1500;
-                Quick = 0;
-                Hatchet = 0;
-                Bomb = 0;
-                isBombOpen = false;
-                isHatchetOpen = false;
-                isQuickOpen = false;
-                volume = 0.5f;
-                isVibroOn = true;
+                DoubleCoins = 0;
+                DoubleBalls = 0;
+                FasterBonus = 0;
+                isYellowBakkOpen = true;
+                isGreenBallOpen = false;
+                isOrangeBallOpen = false;
+                isBlueBallOpen = false;
+                isPinkBallOpen = false;
+                isVioletBallOpen = false;
+                isOrange2BallOpen = false;
+                isRedBallOpen = false;
             }
         }
 
@@ -114,13 +131,16 @@ namespace ProgreaaAndDataNamespace
     {
         public int LevelCount;
         public int GoldCoinCounter;
-        public int Quik;
-        public int Hatchet;
-        public int Bomb;
-        public bool isQuikOpen;
-        public bool isHatchetOpen;
-        public bool isBombOpen;
-        public bool isVibroOn;
-        public float volume;
+        public int DoubleCoins;
+        public int DoubleBalls;
+        public int FasterBonus;
+        public bool isYellowBakkOpen;
+        public bool isGreenBallOpen;
+        public bool isOrangeBallOpen;
+        public bool isBlueBallOpen;
+        public bool isPinkBallOpen;
+        public bool isVioletBallOpen;
+        public bool isOrange2BallOpen;
+        public bool isRedBallOpen;
     }
 }
