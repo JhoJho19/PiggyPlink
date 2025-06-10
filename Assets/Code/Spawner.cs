@@ -2,14 +2,14 @@ using UnityEngine;
 using ProgressAndDataNamespace;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Spawner : MonoBehaviour
 {
     public UnityEvent onFail;
-    [SerializeField] private GameObject playBall;
+    [SerializeField] private GameObject [] playBall;
     public static bool isBallGenerate;
 
-    // время последнего спавна
     private float _lastSpawnTime = -Mathf.Infinity;
 
     private void Start()
@@ -19,10 +19,12 @@ public class Spawner : MonoBehaviour
 
     private void SpawnABall(float x, float y)
     {
+        ProgressData.GoldCoinCounter -= AmountAndWin.Amount;
+
         Vector2 pos = new Vector2(x, y);
         if (isBallGenerate)
         {
-            GameObject ball = Instantiate(playBall, pos, Quaternion.identity);
+            GameObject ball = Instantiate(playBall[ProgressData.currentSkinIndex], pos, Quaternion.identity);
 
             Rigidbody2D rb = ball.GetComponent<Rigidbody2D>();
             if (rb != null)

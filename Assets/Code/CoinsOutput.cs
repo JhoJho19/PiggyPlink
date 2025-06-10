@@ -19,13 +19,15 @@ public class CoinsOutput : MonoBehaviour
     public void UpdateCoinCounter()
     {
         coinsText.text = ProgressData.GoldCoinCounter.ToString();
-        
-        if(progressBar)
-            progressBar.fillAmount = ProgressData.GoldCoinCounter / (targetAmount * .01f);
-        
+
+        if (progressBar && targetAmount > 0)
+        {
+            progressBar.fillAmount = Mathf.Clamp01((float)ProgressData.GoldCoinCounter / targetAmount);
+        }
+
         if (ProgressData.GoldCoinCounter <= 0)
         {
-            ProgressData.GoldCoinCounter = 10;
+            ProgressData.GoldCoinCounter = 100;
             coinsText.text = ProgressData.GoldCoinCounter.ToString();
         }
     }

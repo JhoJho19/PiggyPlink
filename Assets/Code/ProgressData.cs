@@ -8,8 +8,8 @@ namespace ProgressAndDataNamespace
     {
         public static ProgressData Instance { get; private set; }
 
-        public static int LevelCount { get; set; }
-        public static int GoldCoinCounter { get; set; } = 100;
+        public static int LevelCount { get; set; } = 1;
+        public static int GoldCoinCounter { get; set; } = 1000;
         public static int DoubleCoins { get; set; }
         public static int DoubleBalls { get; set; }
         public static int FasterBonus { get; set; }

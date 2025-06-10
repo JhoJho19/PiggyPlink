@@ -38,8 +38,10 @@ public class CatcherBeh : MonoBehaviour
             else
                 coefficient = _coeficientOnStart;
 
-            ProgressData.GoldCoinCounter = (int)Mathf.Round(ProgressData.GoldCoinCounter * coefficient);
-            Debug.Log(ProgressData.GoldCoinCounter);
+
+            AmountAndWin.WinAmount = (int)Mathf.Round(AmountAndWin.Amount * coefficient);
+            ProgressData.GoldCoinCounter += AmountAndWin.WinAmount;
+
             CoinsOutput.UpdateCoinCounter();
             Destroy(collision.gameObject);
         }

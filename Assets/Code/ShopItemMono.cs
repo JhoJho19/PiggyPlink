@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using ProgressAndDataNamespace;
 using static UnityEditor.Progress;
+using UnityEngine.Events;
 
 
 
@@ -297,6 +298,11 @@ public class ShopItemMono : MonoBehaviour
             }
         }
         UpdateUI();
+        CoinsOutput[] coinsOutputs = FindObjectsOfType<CoinsOutput>();
+        foreach(var c in coinsOutputs)
+        {
+            c.UpdateCoinCounter();
+        }
     }
 }
 
