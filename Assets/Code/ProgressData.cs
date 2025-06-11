@@ -10,9 +10,9 @@ namespace ProgressAndDataNamespace
 
         public static int LevelCount { get; set; } = 1;
         public static int GoldCoinCounter { get; set; } = 1000;
-        public static int DoubleCoins { get; set; }
-        public static int DoubleBalls { get; set; }
-        public static int FasterBonus { get; set; }
+        public static int DoubleCoins { get; set; } = 1;
+        public static int DoubleBalls { get; set; } = 1;
+        public static int FasterBonus { get; set; } = 1;
         public static bool isYellowBakkOpen { get; set; } = true;
         public static bool isGreenBallOpen { get; set; }
         public static bool isOrangeBallOpen { get; set; }
@@ -21,9 +21,7 @@ namespace ProgressAndDataNamespace
         public static bool isVioletBallOpen { get; set; }
         public static bool isOrange2BallOpen { get; set; }
         public static bool isRedBallOpen { get; set; }
-
         public static int currentSkinIndex { get; set; }
-
 
         private string saveWay;
 
@@ -41,6 +39,23 @@ namespace ProgressAndDataNamespace
             }
 
             saveWay = Path.Combine(Application.persistentDataPath, "gameProgress.dat");
+
+            LoadProgress();
+        }
+
+        private void OnDisable()
+        {
+            SaveProgress();
+        }
+
+        private void OnDestroy()
+        {
+            SaveProgress();
+        }
+
+        private void OnApplicationQuit()
+        {
+            SaveProgress();
         }
 
         public void SaveProgress()
@@ -62,7 +77,8 @@ namespace ProgressAndDataNamespace
                     isPinkBallOpen = isPinkBallOpen,
                     isVioletBallOpen = isVioletBallOpen,
                     isOrange2BallOpen = isOrange2BallOpen,
-                    isRedBallOpen = isRedBallOpen
+                    isRedBallOpen = isRedBallOpen,
+                    currentSkinIndex = currentSkinIndex
                 };
 
                 formatter.Serialize(stream, data);
@@ -91,16 +107,16 @@ namespace ProgressAndDataNamespace
                     isVioletBallOpen = data.isVioletBallOpen;
                     isOrange2BallOpen = data.isOrange2BallOpen;
                     isRedBallOpen = data.isRedBallOpen;
+                    currentSkinIndex = data.currentSkinIndex;
                 }
             }
             else
             {
-                // начальные значения по умолчанию
                 LevelCount = 1;
-                GoldCoinCounter = 1500;
-                DoubleCoins = 0;
-                DoubleBalls = 0;
-                FasterBonus = 0;
+                GoldCoinCounter = 1000;
+                DoubleCoins = 1;
+                DoubleBalls = 1;
+                FasterBonus = 1;
                 isYellowBakkOpen = true;
                 isGreenBallOpen = false;
                 isOrangeBallOpen = false;
@@ -109,6 +125,7 @@ namespace ProgressAndDataNamespace
                 isVioletBallOpen = false;
                 isOrange2BallOpen = false;
                 isRedBallOpen = false;
+                currentSkinIndex = 0;
             }
         }
 
@@ -142,5 +159,7 @@ namespace ProgressAndDataNamespace
         public bool isVioletBallOpen;
         public bool isOrange2BallOpen;
         public bool isRedBallOpen;
+
+        public int currentSkinIndex;
     }
 }

@@ -3,18 +3,6 @@
   "WorkspaceRootPath": "C:\\UnityGames\\PiggyPlink\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C6C09B3F-AD4D-7A77-0FB8-CDD956A59E3C}|Assembly-CSharp.csproj|C:\\UnityGames\\PiggyPlink\\assets\\code\\coinsoutput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6C09B3F-AD4D-7A77-0FB8-CDD956A59E3C}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\coinsoutput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6C09B3F-AD4D-7A77-0FB8-CDD956A59E3C}|Assembly-CSharp.csproj|c:\\unitygames\\piggyplink\\assets\\code\\winscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6C09B3F-AD4D-7A77-0FB8-CDD956A59E3C}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\winscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6C09B3F-AD4D-7A77-0FB8-CDD956A59E3C}|Assembly-CSharp.csproj|c:\\unitygames\\piggyplink\\assets\\code\\bonusescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6C09B3F-AD4D-7A77-0FB8-CDD956A59E3C}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\bonusescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C6C09B3F-AD4D-7A77-0FB8-CDD956A59E3C}|Assembly-CSharp.csproj|C:\\UnityGames\\PiggyPlink\\assets\\code\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6C09B3F-AD4D-7A77-0FB8-CDD956A59E3C}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,12 +11,28 @@
       "RelativeMoniker": "D:0:0:{C6C09B3F-AD4D-7A77-0FB8-CDD956A59E3C}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\catcherbeh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C6C09B3F-AD4D-7A77-0FB8-CDD956A59E3C}|Assembly-CSharp.csproj|c:\\unitygames\\piggyplink\\assets\\code\\coinsoutput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6C09B3F-AD4D-7A77-0FB8-CDD956A59E3C}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\coinsoutput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C6C09B3F-AD4D-7A77-0FB8-CDD956A59E3C}|Assembly-CSharp.csproj|C:\\UnityGames\\PiggyPlink\\assets\\code\\amountandwin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6C09B3F-AD4D-7A77-0FB8-CDD956A59E3C}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\amountandwin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C6C09B3F-AD4D-7A77-0FB8-CDD956A59E3C}|Assembly-CSharp.csproj|C:\\UnityGames\\PiggyPlink\\assets\\code\\winscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6C09B3F-AD4D-7A77-0FB8-CDD956A59E3C}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\winscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6C09B3F-AD4D-7A77-0FB8-CDD956A59E3C}|Assembly-CSharp.csproj|C:\\UnityGames\\PiggyPlink\\assets\\code\\sceneloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6C09B3F-AD4D-7A77-0FB8-CDD956A59E3C}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\sceneloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C6C09B3F-AD4D-7A77-0FB8-CDD956A59E3C}|Assembly-CSharp.csproj|C:\\UnityGames\\PiggyPlink\\assets\\code\\progressdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6C09B3F-AD4D-7A77-0FB8-CDD956A59E3C}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\progressdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6C09B3F-AD4D-7A77-0FB8-CDD956A59E3C}|Assembly-CSharp.csproj|C:\\UnityGames\\PiggyPlink\\assets\\code\\bonusescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6C09B3F-AD4D-7A77-0FB8-CDD956A59E3C}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\bonusescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C6C09B3F-AD4D-7A77-0FB8-CDD956A59E3C}|Assembly-CSharp.csproj|C:\\UnityGames\\PiggyPlink\\assets\\code\\srttingsbeh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C6C09B3F-AD4D-7A77-0FB8-CDD956A59E3C}|Assembly-CSharp.csproj|C:\\UnityGames\\PiggyPlink\\assets\\code\\shopitemmono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6C09B3F-AD4D-7A77-0FB8-CDD956A59E3C}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\shopitemmono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6C09B3F-AD4D-7A77-0FB8-CDD956A59E3C}|Assembly-CSharp.csproj|C:\\UnityGames\\PiggyPlink\\assets\\code\\sceneloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6C09B3F-AD4D-7A77-0FB8-CDD956A59E3C}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\sceneloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,7 +58,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "WinScreen.cs",
               "DocumentMoniker": "C:\\UnityGames\\PiggyPlink\\Assets\\Code\\WinScreen.cs",
               "RelativeDocumentMoniker": "Assets\\Code\\WinScreen.cs",
@@ -71,44 +71,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "CatcherBeh.cs",
               "DocumentMoniker": "C:\\UnityGames\\PiggyPlink\\Assets\\Code\\CatcherBeh.cs",
               "RelativeDocumentMoniker": "Assets\\Code\\CatcherBeh.cs",
               "ToolTip": "C:\\UnityGames\\PiggyPlink\\Assets\\Code\\CatcherBeh.cs",
               "RelativeToolTip": "Assets\\Code\\CatcherBeh.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwCsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T19:42:27.441Z"
+              "WhenOpened": "2025-06-10T19:42:27.441Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "AmountAndWin.cs",
               "DocumentMoniker": "C:\\UnityGames\\PiggyPlink\\Assets\\Code\\AmountAndWin.cs",
               "RelativeDocumentMoniker": "Assets\\Code\\AmountAndWin.cs",
               "ToolTip": "C:\\UnityGames\\PiggyPlink\\Assets\\Code\\AmountAndWin.cs",
               "RelativeToolTip": "Assets\\Code\\AmountAndWin.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAABSAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T19:16:18.777Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BonusesController.cs",
-              "DocumentMoniker": "C:\\UnityGames\\PiggyPlink\\Assets\\Code\\BonusesController.cs",
-              "RelativeDocumentMoniker": "Assets\\Code\\BonusesController.cs",
-              "ToolTip": "C:\\UnityGames\\PiggyPlink\\Assets\\Code\\BonusesController.cs",
-              "RelativeToolTip": "Assets\\Code\\BonusesController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAowCAAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T18:17:15.477Z",
+              "WhenOpened": "2025-06-10T19:16:18.777Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "SceneLoader.cs",
               "DocumentMoniker": "C:\\UnityGames\\PiggyPlink\\Assets\\Code\\SceneLoader.cs",
               "RelativeDocumentMoniker": "Assets\\Code\\SceneLoader.cs",
@@ -116,11 +105,12 @@
               "RelativeToolTip": "Assets\\Code\\SceneLoader.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T14:13:51.169Z"
+              "WhenOpened": "2025-06-10T14:13:51.169Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ShopItemMono.cs",
               "DocumentMoniker": "C:\\UnityGames\\PiggyPlink\\Assets\\Code\\ShopItemMono.cs",
               "RelativeDocumentMoniker": "Assets\\Code\\ShopItemMono.cs",
@@ -138,38 +128,52 @@
               "RelativeDocumentMoniker": "Assets\\Code\\ProgressData.cs",
               "ToolTip": "C:\\UnityGames\\PiggyPlink\\Assets\\Code\\ProgressData.cs",
               "RelativeToolTip": "Assets\\Code\\ProgressData.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAA8wB4AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAADwvzAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T13:04:29.043Z"
+              "WhenOpened": "2025-06-05T13:04:29.043Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "CoinsOutput.cs",
               "DocumentMoniker": "C:\\UnityGames\\PiggyPlink\\Assets\\Code\\CoinsOutput.cs",
               "RelativeDocumentMoniker": "Assets\\Code\\CoinsOutput.cs",
               "ToolTip": "C:\\UnityGames\\PiggyPlink\\Assets\\Code\\CoinsOutput.cs",
               "RelativeToolTip": "Assets\\Code\\CoinsOutput.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAzwCIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwB0AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-05T12:59:21.211Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Spawner.cs",
               "DocumentMoniker": "C:\\UnityGames\\PiggyPlink\\Assets\\Code\\Spawner.cs",
               "RelativeDocumentMoniker": "Assets\\Code\\Spawner.cs",
               "ToolTip": "C:\\UnityGames\\PiggyPlink\\Assets\\Code\\Spawner.cs",
               "RelativeToolTip": "Assets\\Code\\Spawner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T12:55:07.272Z"
+              "WhenOpened": "2025-06-05T12:55:07.272Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "BonusesController.cs",
+              "DocumentMoniker": "C:\\UnityGames\\PiggyPlink\\Assets\\Code\\BonusesController.cs",
+              "RelativeDocumentMoniker": "Assets\\Code\\BonusesController.cs",
+              "ToolTip": "C:\\UnityGames\\PiggyPlink\\Assets\\Code\\BonusesController.cs",
+              "RelativeToolTip": "Assets\\Code\\BonusesController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAowCAAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T18:17:15.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "SrttingsBeh.cs",
               "DocumentMoniker": "C:\\UnityGames\\PiggyPlink\\Assets\\Code\\SrttingsBeh.cs",
               "RelativeDocumentMoniker": "Assets\\Code\\SrttingsBeh.cs",

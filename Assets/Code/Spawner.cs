@@ -8,6 +8,7 @@ public class Spawner : MonoBehaviour
 {
     public UnityEvent onFail;
     [SerializeField] private GameObject [] playBall;
+    [SerializeField] private CoinsOutput _coinOutput;
     public static bool isBallGenerate;
 
     private float _lastSpawnTime = -Mathf.Infinity;
@@ -20,6 +21,7 @@ public class Spawner : MonoBehaviour
     private void SpawnABall(float x, float y)
     {
         ProgressData.GoldCoinCounter -= AmountAndWin.Amount;
+        _coinOutput.UpdateCoinCounter();
 
         Vector2 pos = new Vector2(x, y);
         if (isBallGenerate)

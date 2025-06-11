@@ -1709,6 +1709,7 @@ MonoBehaviour:
   coinsText: {fileID: 2133471123}
   targetAmount: 0
   progressBar: {fileID: 0}
+  winScreen: {fileID: 0}
 --- !u!114 &138471427
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3962,8 +3963,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinsText: {fileID: 1130249193}
-  targetAmount: 10000
+  targetAmount: 1500
   progressBar: {fileID: 826638006}
+  winScreen: {fileID: 1507893707}
 --- !u!1 &321290509
 GameObject:
   m_ObjectHideFlags: 0
@@ -7023,7 +7025,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 10000
+  m_text: 1500
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fce06197bf122fe4c872e9a56679cad4, type: 2}
   m_sharedMaterial: {fileID: 2098483530126244210, guid: fce06197bf122fe4c872e9a56679cad4, type: 2}
@@ -13157,6 +13159,7 @@ MonoBehaviour:
   - {fileID: 7480335521483039047, guid: e6bd18441ef1e9b439f283f1a0acd9db, type: 3}
   - {fileID: 7480335521483039047, guid: 6344de27afaa540498ffb79a93498a23, type: 3}
   - {fileID: 7480335521483039047, guid: 2e4f34c7cdc32df43be00d045491e91f, type: 3}
+  _coinOutput: {fileID: 319987252}
 --- !u!4 &1336016957
 Transform:
   m_ObjectHideFlags: 0
@@ -17939,6 +17942,7 @@ MonoBehaviour:
   coinsText: {fileID: 1619063031}
   targetAmount: 0
   progressBar: {fileID: 0}
+  winScreen: {fileID: 0}
 --- !u!114 &1836704483
 MonoBehaviour:
   m_ObjectHideFlags: 0
